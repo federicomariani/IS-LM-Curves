@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.title("Interactive IS-LM Simulator")
+st.markdown("**Created by Federico Mariani**")
 
 # --- Sidebar: Slider dei parametri ---
 st.sidebar.header("IS Parameters")
@@ -57,3 +58,4 @@ ax.legend() # Mostra la legenda
 
 # --- Mostra grafico su Streamlit ---
 st.pyplot(fig)
+
